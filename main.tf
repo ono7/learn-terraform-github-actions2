@@ -82,8 +82,8 @@ output "web-address" {
 }
 
 variable "test" {
-  type  = string
-  value = "this is a test string var"
+  type    = string
+  default = "this is a test string"
 }
 
 
