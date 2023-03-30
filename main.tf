@@ -81,3 +81,11 @@ output "web-address" {
   value = "${aws_instance.web.public_dns}:8080"
 }
 
+variable "test" {
+  type    = string
+  default = "this is a test string"
+}
+
+output "test_string" {
+  value = var.test
+}
