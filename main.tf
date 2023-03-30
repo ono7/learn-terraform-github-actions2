@@ -86,4 +86,6 @@ variable "test" {
   default = "this is a test string"
 }
 
-
+output "test_string" {
+  value = var.test
+}
